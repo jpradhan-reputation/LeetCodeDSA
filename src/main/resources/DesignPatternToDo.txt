@@ -1,0 +1,114 @@
+Creational Design Patterns:
+===========================
+
+1. Singleton Pattern
+   - Implementing a class with a single instance.
+   - Ensuring global access to that instance.
+
+2. Factory Method Pattern
+   - Defining an interface for creating objects.
+   - Subclasses implement the factory method.
+
+3. Abstract Factory Pattern
+   - Creating families of related or dependent objects.
+   - Ensuring that the created objects are compatible.
+
+4. Builder Pattern
+   - Separating the construction of complex objects.
+   - Fluent interface for building objects.
+
+5. Prototype Pattern
+   - Cloning objects to create new instances.
+   - Customizing the cloned object.
+
+Structural Design Patterns:
+===========================
+
+6. Adapter Pattern
+   - Making one interface compatible with another.
+   - Wrapping an incompatible interface.
+
+7. Decorator Pattern
+   - Adding behavior to objects dynamically.
+   - Composing objects with additional features.
+
+8. Proxy Pattern
+   - Controlling access to an object.
+   - Providing a surrogate or placeholder for another object.
+
+9. Composite Pattern
+   - Composing objects into tree structures.
+   - Treating both individual objects and compositions uniformly.
+
+10. Bridge Pattern
+    - Separating an object's abstraction from its implementation.
+    - Allowing changes in one to not affect the other.
+
+Behavioral Design Patterns:
+===========================
+
+11. Observer Pattern
+    - Defining a one-to-many dependency between objects.
+    - Notifying multiple objects about state changes.
+
+12. Strategy Pattern
+    - Defining a family of algorithms, encapsulating each one.
+    - Making them interchangeable without altering the client code.
+
+13. Command Pattern
+    - Encapsulating a request as an object.
+    - Allowing parameterization of clients with queues, requests, and operations.
+
+14. Chain of Responsibility Pattern
+    - Passing a request along a chain of handlers.
+    - Letting each handler decide whether to process or pass the request.
+
+15. State Pattern
+    - Allowing an object to change its behavior when its internal state changes.
+    - Encapsulating state-specific behavior.
+
+Architectural Design Patterns:
+==============================
+
+16. MVC (Model-View-Controller) Pattern
+    - Separating an application into three interconnected components.
+    - Managing user interface, data, and control logic.
+
+17. DAO (Data Access Object) Pattern
+    - Separating the data access logic from the business logic.
+    - Providing a clean interface for data manipulation.
+
+18. Dependency Injection Pattern
+    - Inversion of Control (IoC) container usage.
+    - Injecting dependencies instead of creating them.
+
+19. Service Locator Pattern
+    - Centralized registry for services.
+    - Reducing the coupling between clients and service providers.
+
+20. Repository Pattern
+    - Mediating between the domain model and data mapping.
+    - Abstracting the data access layer.
+
+Concurrency Design Patterns:
+============================
+
+21. Producer-Consumer Pattern
+    - Coordinating the operation of producers and consumers.
+    - Using a shared buffer for communication.
+
+22. Mutex Pattern
+    - Controlling access to a shared resource with a mutex.
+    - Ensuring exclusive access in multithreaded environments.
+
+23. Reader-Writer Pattern
+    - Allowing multiple readers but only one writer to access shared data.
+    - Managing concurrent access in a balanced way.
+
+24. Thread Pool Pattern
+    - Managing a pool of worker threads for parallel processing.
+    - Reusing threads to avoid thread creation overhead.
+
+25. Barrier Pattern
+    - Synchronizing threads to wait at a barrier until all are ready.
+    - Coordinating activities in a parallel process.
