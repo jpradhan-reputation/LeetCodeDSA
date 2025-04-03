@@ -1,0 +1,83 @@
+Fundamental Spring Boot Data JPA Concepts:
+==========================================
+
+1. Introduction to Spring Boot Data JPA
+   - Understanding the purpose and advantages of Spring Boot Data JPA.
+
+2. Entity Classes
+   - Creating and annotating JPA entity classes.
+   - Mapping entity classes to database tables.
+
+3. Repository Interfaces
+   - Using JpaRepository and custom repository interfaces.
+   - Common repository methods (e.g., CRUD operations).
+
+4. Queries with Query Methods
+   - Writing queries using method naming conventions.
+   - Using derived queries and parameter expressions.
+
+5. JPQL (Java Persistence Query Language)
+   - Writing JPQL queries to retrieve data.
+   - Using JPQL functions and joins.
+
+6. Pagination and Sorting
+   - Implementing pagination and sorting in query results.
+
+7. Auditing
+   - Enabling entity auditing with @CreatedBy, @LastModifiedBy, and @CreatedDate annotations.
+   - Customizing auditing fields and behavior.
+
+8. Associations and Relationships
+   - Mapping one-to-one, one-to-many, and many-to-many relationships.
+   - Fetch types and cascade types.
+
+Advanced Spring Boot Data JPA Topics:
+=====================================
+
+9. Native SQL Queries
+   - Executing native SQL queries with @Query annotation.
+   - Mapping query results to custom DTOs.
+
+10. Specification and Criteria API
+    - Creating complex queries with the Criteria API.
+    - Using Specifications for dynamic queries.
+
+11. Caching in JPA
+    - Implementing caching with the Second Level Cache.
+    - Configuring caching providers (e.g., Ehcache, Hazelcast).
+
+12. Custom Data Sources and Multitenancy
+    - Configuring multiple data sources.
+    - Implementing multitenancy with JPA.
+
+13. Advanced Entity Mapping
+    - Element collections, embeddable objects, and complex mapping scenarios.
+    - Mapping JSON data types.
+
+14. Auditing and Envers
+    - Enabling Hibernate Envers for audit history.
+    - Querying historical data.
+
+15. Spring Boot and Database Migrations
+    - Using Flyway or Liquibase for database schema management.
+    - Applying migrations in Spring Boot applications.
+
+16. Database and Transaction Management
+    - Managing transactions with @Transactional annotations.
+    - Understanding isolation levels and transaction propagation.
+
+17. Performance Tuning and Optimization
+    - Identifying and optimizing performance bottlenecks.
+    - Using database indexes and query optimization techniques.
+
+18. Integration with NoSQL Databases
+    - Integrating with NoSQL databases like MongoDB.
+    - Mapping documents to JPA entities.
+
+19. Testing and Test Data
+    - Writing unit and integration tests for JPA repositories.
+    - Creating test data and using test containers.
+
+20. Best Practices and Real-world Use Cases
+    - Applying best practices for using Spring Boot Data JPA in real-world applications.
+    - Analyzing and implementing advanced use cases.

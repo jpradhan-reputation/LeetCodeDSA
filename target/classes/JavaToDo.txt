@@ -1,0 +1,89 @@
+-> Strong Core Java Knowledge using Object-Oriented Programming (OOP)
+-> Strong Latest Core Java Concepts like Java Concurrency, Functional Programming and Stream API
+-> Strong Advanced Java Knowledge on JDBC, Servlet and JSP using HTML, CSS and JavaScript
+-> Strong Knowledge on Spring Boot, Spring Web, Spring MVC, Spring ORM/Data JPA and Spring Security
+-> Hibernate or other ORM Framework using JPA to use SQL queries, joins, and database normalization
+-> RESTful or SOAP APIs and handling HTTP Requests and Responses
+-> Microservices Architecture and Implementation
+-> JUnit using Mockito tests to ensure code quality (TDD)
+-> Design Patterns: Singleton, Factory, Observer, and MVC
+-> Performance Optimization and Security
+-> Containers and Cloud using AWS or GCP
+-> Problem-Solving: DSA using LeetCode, CodeChef or GFG
+
+Advanced Core Java Syllabus:
+============================
+1. Java Generics:
+	-> Wildcards, bounded types, and type erasure.
+	-> Generic methods and classes.
+	-> Generic collections and their usage.
+	-> Implementing your own generic classes.
+
+2. Enumerations and Annotations:
+	-> Enumerations and their advantages.
+	-> Annotations and their uses (custom annotations, meta-annotations).
+	-> Built-in Java annotations (e.g., @Override, @Deprecated, @FunctionalInterface).
+
+3. Advanced Exception Handling:
+	-> Custom exceptions and best practices.
+	-> Using try-with-resources with AutoCloseable resources.
+	-> Multi-catch and rethrowing exceptions.
+
+4. Java I/O and NIO:
+	-> Buffered I/O and character streams.
+	-> Serialization and deserialization.
+	-> NIO concepts (Buffers, Channels, Selectors).
+	-> File I/O enhancements in Java NIO.2.
+
+5. Java Concurrency:
+	-> Advanced thread synchronization techniques.
+	-> Concurrent collections (e.g., ConcurrentHashMap, CopyOnWriteArrayList).
+	-> Atomic variables and classes.
+	-> Executors framework and parallel programming.
+
+6. Java Memory Management:
+	-> JVM memory structure and garbage collection.
+	-> Memory leaks and how to prevent them.
+	-> JVM tuning and profiling tools.
+
+7. Reflection and Java Reflection API:
+	-> Class loading mechanisms.
+	-> Introspection, getting class information at runtime.
+	-> Dynamically invoking methods and working with fields.
+
+8. Java Classloaders:
+	-> The three-tier classloading architecture.
+	-> Custom classloaders and their use cases.
+
+9. Advanced Design Patterns:
+	-> Creational, structural, and behavioral patterns.
+	-> Applying patterns like Observer, Command, Strategy, etc., in real-world scenarios.
+
+10. Functional Programming Concepts (Java 8+):
+	-> Lambda expressions and method references.
+	-> Functional interfaces and built-in functional interfaces (e.g., Predicate, Function, Consumer).
+	-> Streams API for data processing.
+	-> Optional class and its use in handling null values.
+
+11. Java Modules (Java 9+):
+	-> Introduction to Java modules (project Jigsaw).
+	-> Creating and using modules.
+	-> Module dependencies and module descriptors.
+
+12. Java Security and Cryptography:
+	-> Securing Java applications with access control.
+	-> Using Java Cryptography Architecture (JCA) for encryption and decryption.
+
+13. Advanced Java Networking:
+	-> Sockets, ServerSocket, and URL classes.
+	-> Non-blocking I/O with Java NIO.
+
+14. Java Reflection and Bytecode Manipulation:
+	-> Reflection API for inspecting classes and objects.
+	-> Bytecode manipulation libraries like ASM or ByteBuddy.
+
+15. Java 8+ New Features and Updates:
+	-> Default and static methods in interfaces.
+	-> Method references, streams, and collectors.
+	-> New date and time API (java.time package).
+	
